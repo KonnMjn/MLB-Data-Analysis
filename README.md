@@ -13,7 +13,7 @@ mlb-sql-analysis/
 │ └─ final_project.sql # all analytical queries
 └─ overview.png # course overview 
 
-- `sql/create_schema.sql`: defines database `maven_advanced_sql`, creates tables `players`, `salaries`, `schools`, `school_details`, and inserts sample data.  
+- `sql/create_statements_final_project_mysql.sql`: defines database `maven_advanced_sql`, creates tables `players`, `salaries`, `schools`, `school_details`, and inserts sample data.  
 - `sql/final_project.sql`: the full analysis queries grouped into four parts (CTEs, window functions, ranking, percentiles, cumulative sums, etc.).
 
 ## 🧰 Requirements
@@ -23,7 +23,7 @@ mlb-sql-analysis/
 ## 🚀 How to Run
 1. **Create schema & load data**
    ```bash
-   mysql -u <user> -p < sql/create_schema.sql
+   mysql -u <user> -p < sql/create_statements_final_project_mysql.sql
    ```
   This will create the DB `maven_advanced_sql` and load tables + sample data.
 2. Run the full analysis
@@ -61,7 +61,7 @@ Decade-over-decade changes in average height/weight at debut (uses LAG).
 
 This repository is intentionally lightweight—only SQL + an optional overview image.
 
-The dataset in create_schema.sql is sample/educational; adjust or import full datasets as needed.
+The dataset in create_statements_final_project_mysql.sql is sample/educational; adjust or import full datasets as needed.
 
 Queries are written to be readable; some blocks include an initial attempt and a more optimized variant.
 
