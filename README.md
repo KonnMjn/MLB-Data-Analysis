@@ -4,6 +4,8 @@ A compact, end-to-end SQL project analyzing decades of Major League Baseball (ML
 This is a **course/guided project** demonstrating advanced SQL querying for real analytical questions.
 
 ## 📂 Repository Structure
+```
+MLB-Data-Analysis
 mlb-sql-analysis/
 ├─ README.md
 ├─ LICENSE
@@ -12,6 +14,7 @@ mlb-sql-analysis/
 │ ├─ create_statements_final_project_mysql.sql # create DB 
 │ └─ final_project.sql # all analytical queries
 └─ overview.png # course overview 
+```
 
 - `sql/create_statements_final_project_mysql.sql`: defines database `maven_advanced_sql`, creates tables `players`, `salaries`, `schools`, `school_details`, and inserts sample data.  
 - `sql/final_project.sql`: the full analysis queries grouped into four parts (CTEs, window functions, ranking, percentiles, cumulative sums, etc.).
