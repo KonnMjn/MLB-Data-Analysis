@@ -1,0 +1,11 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# dumps/tạm
+*.log
+*.tmp
+*.bak
+*.DS_Store
