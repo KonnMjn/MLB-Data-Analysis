@@ -74,7 +74,7 @@ Code: MIT (see LICENSE)
 
 Educational use only; data belongs to original providers.
 
-## 🙌 Credit
+## 👨‍🏫 Credits
 
 - Phan Cong Minh
   
